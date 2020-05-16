@@ -1,4 +1,4 @@
-# 401-classing-notes
+# 401-Reading-notes
 
 Here is my own summurized classing notes:
 
