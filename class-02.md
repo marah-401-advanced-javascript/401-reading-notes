@@ -79,8 +79,7 @@ is an extensible program-code-template for creating objects
  A property of an execution context (global, function or eval) that, in non–strict mode, is always a reference to an object and in strict mode can be any value.
 
 * Test Driven Development (TDD):
- is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, so its an evolutionary approach to development which combines test-first development where you write a test before you write just enough production code to fulfill that test and refactoring.
-
+ is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, so its an evolutionary approach to development which combines test-first development .
 * Jest:
  is a JavaScript Testing Framework
 
