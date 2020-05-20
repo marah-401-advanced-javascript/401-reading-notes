@@ -4,13 +4,13 @@ Here is my own summurized classing notes:
 
 ## Table of contents:
 
-0- Engineering Topics | [class-00](class-00.md)
+0 | [class-00](class-00.md)
 
-1- Node js | [class-01](class-01.md)
+1 | [class-01](class-01.md)
 
-2- Classes, Inheritance, TDD | [class-02](class-02.md)
+2 | [class-02](class-02.md)
 
-3- Data Modeling & NoSQL Databases | [class-03](class-03.md)
+3 | [class-03](class-03.md)
 
 4 | [class-04](class-04.md)
 
