@@ -1,4 +1,4 @@
-# Data Modeling & NoSQL Databases
+# Advanced Mongo/Mongoose
 
 
 ## Why would a developer choose to make data models?
