@@ -18,3 +18,4 @@
 ### Virtual joining
 
 - The Virtual Join function allows a single form to display information from many files. You cannot modify virtually joined information but it can link with other files using Find and Fill.
+
