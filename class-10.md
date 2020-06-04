@@ -30,5 +30,3 @@
 - they are implemented as data structures coupled with access routines, as an abstract data structure 
 -  they are implemented in object-oriented languages as classes. 
 - Common implementations are circular buffers and linked lists.
-
-
