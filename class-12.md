@@ -13,11 +13,11 @@
 
 ### Access Code 
 
-- First the client needs to grant the application permission. To do this you need to provide an <a> tag that will take them to the service’s authorization page. 
-- This <a> tag should pass the following information through a query string to the authorization server. Every service is slightly different in their specific requirements, but in some form or another, variables like these are part of this initial request
+- First the client needs to grant the application permission. To do this you need to provide an `<a>` tag that will take them to the service’s authorization page. 
+- This `<a>` tag should pass the following information through a query string to the authorization server. Every service is slightly different in their specific requirements, but in some form or another, variables like these are part of this initial request
 
 - response_type=code
-- client_id=<your client id>
-- redirect_uri=<your redirect uri>
-- scope=<list of scopes>
-- state=<anything you want>
+- client_id=`<your client id>`
+- redirect_uri=`<your redirect uri>`
+- scope=`<list of scopes>`
+- state=`<anything you want>`
