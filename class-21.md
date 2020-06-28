@@ -7,7 +7,6 @@
 - Shallow Testing - Executes and renders the called/container component, but does not compose children.
 - Mounting - Executes the full component and children. Allows for inspection of rendered Virtual DOM as well as the current state
 
-
 ### Deployment
 
 - React in development mode uses a node service to create a live website that refreshes as you write code. 
