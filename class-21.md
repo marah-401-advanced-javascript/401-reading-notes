@@ -1,27 +1,17 @@
-# Props and State
+# React Testing and Deployment
 
-### Props
+### Testing
 
-- Components accept arbitrary inputs called props. In JSX, props are passed into a component with a syntax that looks like HTML attributes. These are the equivalent of function params.
+- Snapshots - Make assertions on the exact rendered markup (with content) at any state of the application.
+- Render Testing - Similar to snapshots, but allows for jQuery-like inspection of the virtual DOM tree
+- Shallow Testing - Executes and renders the called/container component, but does not compose children.
+- Mounting - Executes the full component and children. Allows for inspection of rendered Virtual DOM as well as the current state
 
-- In actuality, props is the name of the object passed into a component constructor and any prop added to a component in the JSX will be accessible as a property on props.
 
-- After props is passed into the constructors super function, they are available on the context by using this.props.
+### Deployment
 
-### setState
+- React in development mode uses a node service to create a live website that refreshes as you write code. 
+- This is NOT what actually gets deployed when you want your React website to go live. React, remember is an index.html file that uses Javascript to render components in the browser. 
+- The node server is only there to aid in your development.
 
-- `setState()` is the only legitimate way to update state after the initial state setup. Let’s say we have a search component and want to display the search term a user submits.
-
-- We have a search component that displays a search term
-- That search term is currently empty
-- The user submits a search term
-- That term is captured and stored by setState as a value
-- Reconciliation takes place and React notices the change in value
-- React instructs the search component to update the value and the  search term is merged in
-
-### Handeling Events
-
-- React events are named using camelCase, rather than lowercase.
-- With JSX you pass a function as the event handler, rather than a string.
-- You must call preventDefault explicitly. 
-- When using React, you generally don’t need to call addEventListener to add listeners to a DOM element after it is created. Instead, just provide a listener when the element is initially rendered.
+ 
