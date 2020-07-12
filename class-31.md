@@ -1,6 +1,6 @@
 # Redux - Combined Reducers
  
- ## Combined Reducers
+## Combined Reducers
 
 - is nothing more than pulling in more than one reducer from source and creating a keyed object from them.
 
@@ -12,7 +12,7 @@ In this example, if an action of type ‘RESET’ is ever dispatched by any acti
 This can be very powerful, as often times actions are valid for multiple reducers
 ,but this behavior needs to be well understood or it’ll cause unintended consequences.
  
- ## Using combineReducers
+## Using combineReducers
 
 ### Core Concepts
 
