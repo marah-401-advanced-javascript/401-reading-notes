@@ -22,3 +22,4 @@ You can still “style” things using the framework guidelines
 - Running locally, you can use your own device or the official simulator
 Only Apple users can test iPhones
 - Anyone can test android, but you need to start up an ADB from The Android Studio IDE
+
